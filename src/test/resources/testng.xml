@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="E-commerce regression" parallel="methods" thread-count="3" data-provider-thread-count="2">
+    <test name="API">
+        <packages>
+            <package name="io.github.s4ytv4n.api"/>
+        </packages>
+    </test>
+    <test name="UI">
+        <packages>
+            <package name="io.github.s4ytv4n.ui"/>
+        </packages>
+    </test>
+</suite>
